@@ -3,6 +3,11 @@ body{
 	background:#B2B6B7;
 	
 }
+#page{
+	width:800px;
+	margin-left: 250px;
+	
+}
 .entete{
 	padding:20px;
 	font-size:24px;
@@ -27,7 +32,7 @@ a:visited{
 #contenu_page{
 	
     
-    height:500px;
+    height:600px;
 	font-family:sylfaen;
 	
 	
@@ -41,34 +46,39 @@ a:visited{
 center h1{
 	padding-top:20px;
 	
+	
 }
 #ligne{
 	padding-top:20px;
 	padding-left:30px;
+	
 }
 .article{
 	padding-top:50px;
 	padding-left:30px;
 	
+	
 }
 .bloc1{
 	
-	width:1000px;
+	width:600px;
 	background:#FFFFFF;
-	padding-left:50px;
-	padding-right:20px;
+	padding-left:10px;
+	padding-right:5px;
 	height:395px;
+	
 	
 	
 }
 .bloc2{
 	background:#5CC7ED;
 	
-	margin:50px 50px 200px 50px;
-	padding:20px 20px 20px 20px;
+	margin:100px 30px 300px 10px;
+	padding:5px 5px 5px 10px;
 	font-family:comic sans ms;
 	font-size:24px;
 	box-shadow:6px 6px 0px black;
+	
 	
 	
 	
@@ -82,7 +92,9 @@ input{
 	width:150px;
 	height:50px;
 	margin-left:80px;
-	margin-bottom:0px;
+	
+	
+
 	
 	
 }	
@@ -98,9 +110,17 @@ img{
 }
 h3{
 	color:#5CC7ED;
+	padding-left: 30px;
+	
 }
 h2{
+	
 	color:#5CC7ED;
+	
+	display:flex;
+	padding:40px;
+	padding-bottom:0px;
+	
 }
 
 
@@ -108,7 +128,7 @@ h2{
 #conteneur
 {
   display:flex;
-  
+ 
  
   
   border-radius:5px;
@@ -119,7 +139,7 @@ h2{
 	
 	
 	padding-left:30px;
-	margin-top:100px;
+	margin-top:80px;
 }
 
 
@@ -129,8 +149,8 @@ h2{
     background:#FFFFFF;
 	
 	flex:2;
-	padding-right:100px;
-	padding-left:80px;
+	padding-left: 30px;
+	padding-right:50px;
 	
 	
 	
@@ -141,20 +161,17 @@ h2{
 {
     background:#FFFFFF;
 	 
-	
 	flex:1;
-	padding-right:100px;
-	padding-left:100px;
-	
+	padding-left: 5px;
+	padding-right:30px;
 		
 }
 .art3{
 	
 	flex:3;
 	
-	 
-	 padding-right:200px;
-	padding-left:100px;
+	padding-right:30px;
+	
 	background:#FFFFFF;
 	
 }
@@ -165,7 +182,7 @@ h2{
 	border-radius:5px;
 	background:black;
 	color:#FFFFFF;
-	padding-left:60px;
+	padding-left:20px;
 	display:flex;
 	font-family:corbel;
 	font-weight:bold;
@@ -190,4 +207,7 @@ h2{
 p{
 	font-family:corbel;
 	font-weight:bold;
+}
+h1{
+	text-align:center ;
 }

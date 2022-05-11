@@ -17,11 +17,15 @@ body{
 	display:flex;
 	
 }
+#page{
+	width:800px;
+	margin-left:250px;
+}
 .lien{
 	
 	
 	
-	margin-left:400px;
+	margin-left:10px;
 	color:#FFFFFF;
 	
 	
@@ -38,29 +42,33 @@ a{
 	color:#FFFFFF;
 	padding-left:20px;
 	margin-bottom:60px;
+	
 }
 #bloc-page{
 	
 	height:1000px;
-	
+	padding-top:20px;
 	
 	display:flex;
 	background:#FFFFFF;
+	padding-left:20px;
+	padding-right:20px;
 	
 	
 }
 .bloc1{
 	
-	padding-right:100px;
-	padding-left:20px;
+	padding-right:20px;
+	
 	
 	
 }
 
 .bloc2{
 	
-	padding-right:80px;
-	padding-left:100px;
+	
+	padding-left:20px;
+	
 }
 h1{
 	
@@ -95,7 +103,7 @@ p{
 	border-radius:5px;
 	background:black;
 	color:white;
-	padding-left:60px;
+	padding-left:10px;
 	display:flex;
 	font-family:corbel;
 	font-weight:bold;
