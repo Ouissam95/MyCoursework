@@ -1,32 +1,39 @@
 body{
 	
 	background:#B2B6B7;
-	
+	position:relative;
 }
 #page{
 	width:800px;
 	margin-left: 250px;
-	
+	position:absolute;
 }
 .entete{
-	padding:20px;
+	position:relative;
 	font-size:24px;
 	color:#FFFFFF;
 	font-family:segoe print;
 	font-weight:bold;
 	
 	
-	background:#000000;
-	border-radius:5px;
+	background:#8ac9e5;
+	
+}
+
+.logo{
+	position:absolute;
+    border-radius: 5px;
+	padding-left:10px;
+	padding-top: 10px;
 }
 .lien{
-	
+	padding-right:10px;
 	text-align:right;
 	
 	
 }
 a:visited{
-	color:#E6D122;
+	color:#eb3ca8;
 }
 
 #contenu_page{
@@ -73,13 +80,13 @@ center h1{
 .bloc2{
 	background:#5CC7ED;
 	
-	margin:100px 30px 300px 10px;
+	margin:200px 30px 200px 10px;
 	padding:5px 5px 5px 10px;
 	font-family:comic sans ms;
 	font-size:24px;
 	box-shadow:6px 6px 0px black;
-	
-	
+	border:solid;
+	border-radius: 5px;
 	
 	
 }
@@ -115,10 +122,10 @@ h3{
 }
 h2{
 	
-	color:#5CC7ED;
-	
+	color:#050505;
+	padding-left: 150px;
 	display:flex;
-	padding:40px;
+	
 	padding-bottom:0px;
 	
 }
@@ -179,7 +186,7 @@ h2{
 #pied{
 	
 	
-	border-radius:5px;
+	
 	background:black;
 	color:#FFFFFF;
 	padding-left:20px;
@@ -201,7 +208,9 @@ h2{
 .logo1{
 	
 	padding-left:0px;
-	margin-left:0px;
+	margin-left:10px;
+	border-radius: 5px;
+	
 	
 }
 p{

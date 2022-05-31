@@ -1,10 +1,11 @@
 body{
 	
-	background:#B2B6B7;
-	
+	background:#d2d5d6;
+	position:relative ;
 	
 }
 #page{
+	position: absolute;
 	width:800px;
 	margin-left:250px;
 	padding-right:10px;
@@ -13,7 +14,8 @@ body{
 .lien{
 	
 	text-align:right;
-	
+	padding-right:10px;
+	font-size:20px;
 	
 }
 a:hover{
@@ -21,13 +23,12 @@ a:hover{
 }
 
 
+
 #conteneur
 {
   display:flex;
  
   justify-content:space-between;
-  
-  
   
 }
 
@@ -54,9 +55,6 @@ a:hover{
 {
     background:#FFFFFF;
 	padding-left: 5px;
-	
-	
-		
 }
 h4{
 		font-size:24px;
@@ -68,30 +66,27 @@ h4{
 
 nav{
 	
-	padding:20px;
-	font-size:24px;
 	font-family:segoe print;
 	font-weight:bold;
-    
+    background:#36E3EE;
 	
-	background:#36E3EE;
-	border-radius:5px;
 }
 .logo{
-	margin-left:0px;
+	padding-top:10px;
+	
+	
+}
+h2{
+	
+	color:#050505;
+	padding-left: 150px;
 	
 	margin-top:0px;
+	display:flex;
+	font-size:20px;
+	margin-bottom:1px;
+	
 }
-
-	
-	
-
-
-
-
-
-
-	
 
 h3{
 	color:#2B0FED;
@@ -112,23 +107,32 @@ li a{
 	text-align:right;
 	
 	font-style:italic;
-	font-family: script mt;
+	
     font-size:26px;	
 	font-weight:bold;
 	
-
+    
+}
+#logo2{
+	margin-top:80px;
+	
+}
+.menu{
+	
+	padding:5px;
+	margin-top: 150px;
 }
 img{
 	
 	padding-left:10px;
-	border-radius:5px;
+	
 }
 
 
 #pied{
 	
 	
-	border-radius:5px;
+	
 	background:black;
 	color:white;
 	padding-left:10px;
@@ -157,3 +161,4 @@ ul{
 	
 	list-style-type:none;
 }
+

@@ -1,31 +1,29 @@
 body{
 	
 	background:#B2B6B7;
-	
+	position:relative;
 }
 .entete{
 	padding:20px;
-	
-	font-size:24px;
-	height:80px;
-	font-family:segoe print;
+    font-family:segoe print;
 	font-weight:bold;
-	padding-left:50px;
-	padding-right:50px;
+	background:#9596a1;
 	
-	background:#6D6ECF;
-	display:flex;
 	
+}
+#logo{
+	border-radius: 5px;
 }
 #page{
 	width:800px;
 	margin-left:250px;
+	
 }
 .lien{
 	
 	
-	
-	margin-left:10px;
+	font-size:20px;
+	text-align: right;
 	color:#FFFFFF;
 	
 	
@@ -38,17 +36,11 @@ a:hover{
 a{
 	color:#FFFFFF;
 }
-#nom{
-	color:#FFFFFF;
-	padding-left:20px;
-	margin-bottom:60px;
-	
-}
+
 #bloc-page{
 	
 	height:1000px;
 	padding-top:20px;
-	
 	display:flex;
 	background:#FFFFFF;
 	padding-left:20px;
@@ -100,7 +92,7 @@ p{
 	
 	height:300px;
 	
-	border-radius:5px;
+	
 	background:black;
 	color:white;
 	padding-left:10px;
@@ -120,10 +112,7 @@ p{
 }
 
 
-h2{
-	font-family:corbel;
-	color:#C46CD2;
-}
+
 .table{
 	border:solid #222225;
 }
